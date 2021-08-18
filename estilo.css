@@ -1,8 +1,62 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 1440px;
     font-family: 'Raleway';
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: hsl(0, 100%, 100%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.container{
+
+}
+
+.fylo{
+    position: absolute;
+    height: 160px;
+    width: 260px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+}
+
+.files{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#img-document{
+    background-color: hsl(229, 57%, 11%);
+    height: 24px;
+    width: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#img-folder{
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    width: 24px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#img-upload{
+    display: inline-flex;
+
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    width: 24px;
+    padding: 10px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+}
+
+/*---------------------------------------------------*/
+.attribution { font-size: 11px; text-align: center; color:  hsl(100, 0%, 100%); }
+.attribution a { color: hsl(0, 100%, 70%); }
