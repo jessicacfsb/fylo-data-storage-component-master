@@ -7,54 +7,84 @@ body{
     background-image: url(images/bg-desktop.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: bottom;
     color: hsl(0, 100%, 100%);
 }
 
 .container{
-
+    min-height: 740px;
 }
 
 .fylo{
     position: absolute;
-    height: 160px;
-    width: 260px;
+    height: 155px;
+    width: 300px;
     background-color: hsl(228, 56%, 26%);
     padding: 20px;
     padding-top: 50px;
     border-radius: 10px;
     border-top-right-radius: 100px;
+    margin-top: 100px;
+    margin-left: 10px;
 }
 
 .files{
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #img-document{
     background-color: hsl(229, 57%, 11%);
     height: 24px;
     width: 20px;
-    padding: 15px;
+    padding: 15px 17px 15px 17px;
     border-radius: 10px;
+    margin-right: 13px;
 }
 
 #img-folder{
     background-color: hsl(229, 57%, 11%);
     height: 20px;
     width: 24px;
-    padding: 15px;
+    padding: 18px 14px 15px 14px;
     border-radius: 10px;
+    margin-right: 13px;
 }
 
 #img-upload{
-    display: inline-flex;
-
     background-color: hsl(229, 57%, 11%);
-    height: 20px;
+    height: 18px;
     width: 24px;
-    padding: 10px;
-    padding-bottom: 18px;
+    padding: 17px 15px 18px 15px;
+    border-radius: 13px;
+}
+
+.bar-container{
+    position: absolute;
+    height: auto;
+    width: 600px;
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 100px;
+    margin-left: 500px;
+    padding: 30px;
     border-radius: 10px;
+}
+
+p#gb-185{
+   
+}
+
+#background-bar{
+    height: 23px;
+    width: 580px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 50px;
+}
+
+#bar{
+    height: 20px;
+    width: 400;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
 }
 
 /*---------------------------------------------------*/
