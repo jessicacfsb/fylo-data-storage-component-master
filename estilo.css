@@ -75,22 +75,23 @@ body{
     color: hsl(0, 100%, 0%);
     padding: 10px;
     width: 150px;
-    height: 150px;
+    height: 50px;
     position: relative;
+    border-radius: 10px;
 }
 
 .baloon:before{
-    background-color: hsl(0, 100%, 100%);
     position: absolute;
     content: '';
-    width: 0px;
-    height: 0px;
-    bottom: -20px;
-    left: 50%;
-     border-left: 30px solid hsl(0, 100%, 50%);
-    border-right:  30px solid hsl(0, 100%, 50%);
-    border-top: 30px solid hsl(0, 100%, 50%);
-   
+    width: 1px;
+    height: 1px;
+    bottom: -10px;
+    left: 129.5px;
+    transform: rotate(45deg);
+    border: solid 30px transparent;
+    border-bottom: solid 30px hsl(0, 100%, 100%);
+    border-top: none;
+    overflow: hidden;
 }
 
 #background-bar{
