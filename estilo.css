@@ -1,18 +1,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    width: 1440px;
     font-family: 'Raleway';
+    width: 1440px;
     background-color: hsl(229, 57%, 11%);
-    background-image: url(images/bg-desktop.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
     color: hsl(0, 100%, 100%);
 }
 
 .container{
-    min-height: 740px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .fylo{
@@ -26,8 +23,8 @@ body{
     padding-bottom: 25px;
     border-radius: 10px;
     border-top-right-radius: 100px;
-    margin-top: 210px;
-    margin-left: 280px;
+    margin-top: 250px;
+    margin-left: 310px;
 }
 
 .files{
@@ -89,8 +86,8 @@ body{
     position: absolute;
     width: 500px;
     background-color: hsl(228, 56%, 26%);
-    margin-top: 190px;
-    margin-left: 675px;
+    margin-top: 230px;
+    margin-left: 710px;
     padding: 20px 30px 50px 40px;
     border-radius: 10px;
 }
@@ -131,6 +128,24 @@ p#mil-gb{
     left: 460px;
 }
 
-/*---------------------------------------------------*/
-.attribution { font-size: 11px; text-align: center; color:  hsl(100, 0%, 100%); }
-.attribution a { color: hsl(0, 100%, 70%); }
+footer{
+    background-image: url(images/bg-desktop.png);
+    background-size: 1600px auto;
+    background-repeat: no-repeat;
+    height: 740px;
+    width: 1600px;
+    background-position: bottom;
+    top: 1100px;
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color:  hsl(100, 0%, 100%); 
+    position: fixed;
+    transform: translate(1000px, 650px);
+}
+.attribution a { 
+    color: hsl(0, 100%, 70%); 
+}
