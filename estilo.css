@@ -99,6 +99,15 @@ p#mil-gb{
     left: 460px;
 }
 
+#circle{
+    background-color: hsl(0, 100%, 100%);
+    heigth: 14px;
+    width: 0px;
+    padding: 6px;
+    border-radius: 13px;
+    margin-top: 22px;
+    margin-left: 15.5px;
+}
 
 .baloon{
     background-color: hsl(0, 100%, 100%);
@@ -126,17 +135,21 @@ p#mil-gb{
 }
 
 .baloon p {
+    color: hsl(0, 100%, 0%);
+    display: inline-flex;
     font-size: 40px;
     font-weight: 900;
-    text-align: center;
     margin-top: -5px;
-    color: hsl(0, 100%, 0%);
+    margin-left: 10px;
 }
 
-.baloon span{
+.baloon p span{
     font-size: 14px;
     text-transform: uppercase;
     color: hsl(229, 7%, 55%);
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 footer{
@@ -153,7 +166,7 @@ footer{
     text-align: center; 
     color:  hsl(100, 0%, 100%); 
     position: fixed;
-    transform: translate(1000px, 650px);
+    transform: translate(1000px, 690px);
 }
 .attribution a { 
     color: hsl(0, 100%, 70%); 
