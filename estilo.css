@@ -5,11 +5,7 @@ body{
     width: 1440px;
     background-color: hsl(229, 57%, 11%);
     color: hsl(0, 100%, 100%);
-}
-
-.container{
-    margin: 0px;
-    padding: 0px;
+    font-size: 14px;
 }
 
 .fylo{
@@ -17,14 +13,11 @@ body{
     height: 140px;
     width: 300px;
     background-color: hsl(228, 56%, 26%);
-    padding: 20px;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-bottom: 25px;
+    margin-top: 185px;
+    margin-left: 320px;
+    padding: 40px 20px 25px 40px;
     border-radius: 10px;
     border-top-right-radius: 100px;
-    margin-top: 250px;
-    margin-left: 310px;
 }
 
 .files{
@@ -58,54 +51,32 @@ body{
     border-radius: 13px;
 }
 
-.baloon{
-    background-color: hsl(0, 100%, 100%);
-    color: hsl(0, 100%, 0%);
-    padding: 10px;
-    width: 150px;
-    height: 50px;
-    position: relative;
-    border-radius: 10px;
-}
-
-.baloon:before{
-    position: absolute;
-    content: '';
-    width: 1px;
-    height: 1px;
-    bottom: -10px;
-    left: 129.5px;
-    transform: rotate(45deg);
-    border: solid 30px transparent;
-    border-bottom: solid 30px hsl(0, 100%, 100%);
-    border-top: none;
-    overflow: hidden;
-}
-
 .bar-container{
     position: absolute;
+    height: 145px;
     width: 500px;
     background-color: hsl(228, 56%, 26%);
-    margin-top: 230px;
-    margin-left: 710px;
-    padding: 20px 30px 50px 40px;
-    border-radius: 10px;
+    margin-top: 240px;
+    margin-left: 720px;
+    padding: 0px 30px 5px;
+    border-radius: 10px; 
 }
 
-.bar-container p{
-    color:  hsl(243, 100%, 93%);
+p.data-bar {
+    color: hsl(243, 100%, 93%);
+    margin-top: 40px;
 }
 
 #background-bar{
     height: 20px;
-    width: 480px;
+    width: 487px;
     background-color: hsl(229, 57%, 15%);
     border-radius: 50px;
 }
 
 #bar{
     position: relative;
-    top: -17.5px;
+    top: -17px;
     left: 2.6px;
     height: 15px;
     width: 350px;
@@ -116,7 +87,7 @@ body{
 p#zero-gb{
     position: absolute;
     font-weight: 700;
-    top: 80px;
+    top: 85px;
     color: hsl(243, 100%, 93%);
 }
 
@@ -124,8 +95,48 @@ p#mil-gb{
     position: absolute;
     font-weight: 700;
     color: hsl(243, 100%, 93%);
-    top: 80px;
+    top: 85px;
     left: 460px;
+}
+
+
+.baloon{
+    background-color: hsl(0, 100%, 100%);
+    position: relative;
+    color: hsl(0, 100%, 0%);
+    padding: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-left: 308px;
+}
+
+.baloon:before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 1px;
+    bottom: -8px;
+    left: 139.5px;
+    transform: rotate(45deg);
+    border: solid 30px transparent;
+    border-bottom: solid 30px hsl(0, 100%, 100%);
+    border-top: none;
+}
+
+.baloon p {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: -5px;
+    color: hsl(0, 100%, 0%);
+}
+
+.baloon span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: hsl(229, 7%, 55%);
 }
 
 footer{
@@ -135,8 +146,6 @@ footer{
     height: 740px;
     width: 1600px;
     background-position: bottom;
-    top: 1100px;
-
 }
 
 .attribution { 
